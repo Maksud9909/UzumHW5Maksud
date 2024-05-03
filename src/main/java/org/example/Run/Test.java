@@ -25,7 +25,6 @@ public class Test {
 
         System.out.println("Name: " + catName);
         System.out.println("Age: " + catAge);
-        cat.makeSound("Meow");
-
+        System.out.println(cat.makeSound());
     }
 }
